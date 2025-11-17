@@ -1,0 +1,36 @@
+{
+      "ip_header": {
+            "version": 4,
+            "ihl": 5,
+            "DSField_ECN": 0,
+            "total_length": 28,
+            "id": 0,
+            "flags_fragoff": 0,
+            "ttl": 64,
+            "protocol": 6,
+            "headerChecksum": 0,
+            "sourceIP": "192.168.10.175"
+      },
+      "tcp_header": {
+            "source_port": 50000,
+            "destination_port": 80,
+            "sequence_number": 1,
+            "acknowledgment_number": 0,
+            "data_offset": 5,
+            "flags": {
+                  "ns": 0,
+                  "cwr": 0,
+                  "ece": 0,
+                  "urg": 0,
+                  "ack": 0,
+                  "psh": 0,
+                  "rst": 0,
+                  "syn": 1,
+                  "fin": 0
+            },
+            "window_size": 65535,
+            "checksum": 0,
+            "urgent_pointer": 0,
+            "options": []
+            }
+}
