@@ -8,12 +8,10 @@
             "flags_fragoff": 0,
             "ttl": 64,
             "protocol": 6,
-            "headerChecksum": 0,
             "sourceIP": "192.168.10.175"
       },
       "tcp_header": {
-            "source_port": 50000,
-            "destination_port": 80,
+            
             "sequence_number": 1,
             "acknowledgment_number": 0,
             "data_offset": 5,
